@@ -1,0 +1,2 @@
+These files are only for production.
+Code icluded here is copied to functions, which renders plugins front-end in wordpress.
