@@ -2,10 +2,13 @@
 
 function tequ_show_test( $atts ){
     ob_start();
-    if (false){ ?>
-        <div>
-            <p>TEST SHORTCODE</p>
-            <p>Here you will see test</p>
+    if (is_admin() || \Elementor\Plugin::$instance->editor->is_edit_mode()){ ?>
+        <div class="test">
+            <div class="test__header">
+                <h2>
+                    <?php _e( 'here you\'ll see a test plugin', 'tequ'); ?>
+                </h2>
+            </div>
         </div>
     <?php   
         $content = ob_get_clean();
@@ -13,33 +16,29 @@ function tequ_show_test( $atts ){
     } else{
         ob_start(); ?>
 
-        <?php if(false){ ?>
-            <h1>bla bla bla</h1>
-        <?php } ?>
-
         <?php    // get data from database
         $post_meta = get_post_meta($atts['id'], 'tequ_data', true);
 
         // enqueue required scripts and styles
-        if(\Elementor\Plugin::$instance->editor->is_edit_mode()){
-            add_action('elementor/editor/after_register_scripts', function(){
-                wp_register_script('tequ-script', TEQU_PLUGIN_URL . 'assets/js/tequ.js', '', '1.0', true);
-            });
-            add_action('elementor/editor/after_enqueue_scripts', function(){
-                wp_enqueue_script('tequ-script');
-                // wp_enqueue_script('tequ-script');
-            });
-            add_action('elementor/editor/after_enqueue_styles', function(){
-                wp_enqueue_style('tequ-style', TEQU_PLUGIN_URL . 'assets/css/tequ-style.css', null, '1.0', false);
-            });
-            // wp_enqueue_script('tequ-script', TEQU_PLUGIN_URL . 'assets/js/tequ.js', null, '1.0', true);
-            // wp_enqueue_style('tequ-style', TEQU_PLUGIN_URL . 'assets/css/tequ-style.css', null, '1.0', false);
+        // if(\Elementor\Plugin::$instance->editor->is_edit_mode()){
+        //     add_action('elementor/editor/after_register_scripts', function(){
+        //         wp_register_script('tequ-script', TEQU_PLUGIN_URL . 'assets/js/tequ.js', '', '1.0', true);
+        //     });
+        //     add_action('elementor/editor/after_enqueue_scripts', function(){
+        //         wp_enqueue_script('tequ-script');
+        //         // wp_enqueue_script('tequ-script');
+        //     });
+        //     add_action('elementor/editor/after_enqueue_styles', function(){
+        //         wp_enqueue_style('tequ-style', TEQU_PLUGIN_URL . 'assets/css/tequ-style.css', null, '1.0', false);
+        //     });
+        //     // wp_enqueue_script('tequ-script', TEQU_PLUGIN_URL . 'assets/js/tequ.js', null, '1.0', true);
+        //     // wp_enqueue_style('tequ-style', TEQU_PLUGIN_URL . 'assets/css/tequ-style.css', null, '1.0', false);
 
-        }
-        else{
+        // }
+        // else{
             wp_enqueue_style('tequ-style', TEQU_PLUGIN_URL . 'assets/css/tequ-style.css', null, '1.0', false);
             wp_enqueue_script('tequ-script', TEQU_PLUGIN_URL . 'assets/js/tequ.js', null, '1.0', true);
-        }
+        // }
 
         function tequ_getCategories($answer){
             $aCategories = explode(':', $answer);

@@ -1,0 +1,224 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Tequ\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-09-14 18:37+0000\n"
+"PO-Revision-Date: 2021-09-14 18:38+0000\n"
+"Last-Translator: Spoć się!\n"
+"Language-Team: Polski\n"
+"Language: pl_PL\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10 >= 2 && n%10<=4 "
+"&&(n%100<10||n%100 >= 20)? 1 : 2);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.5.3; wp-5.8.1\n"
+"X-Domain: tequ"
+
+#: includes/admin/edit-post-page.php:135
+msgid "add category"
+msgstr ""
+
+#: includes/init.php:15
+msgid "Add New"
+msgstr ""
+
+#: includes/init.php:14
+msgctxt "Add New on Toolbar"
+msgid "Test"
+msgstr ""
+
+#: includes/init.php:16
+msgid "Add New Test"
+msgstr ""
+
+#: includes/admin/edit-post-page.php:83
+msgid "add question"
+msgstr ""
+
+#: includes/init.php:13
+msgctxt "Admin Menu text"
+msgid "Tests"
+msgstr ""
+
+#: includes/init.php:20
+msgid "All Tests"
+msgstr ""
+
+#: includes/admin/edit-post-page.php:68
+msgid "Answer one"
+msgstr ""
+
+#: includes/admin/edit-post-page.php:74
+msgid "Answer two"
+msgstr ""
+
+#: includes/admin/edit-post-page.php:38
+msgid "Begin button"
+msgstr ""
+
+#: includes/admin/edit-post-page.php:94
+msgid "Category"
+msgstr ""
+
+#: includes/admin/edit-post-page.php:126
+msgid "Category header"
+msgstr ""
+
+#: includes/admin/edit-post-page.php:109
+msgid "Category name"
+msgstr ""
+
+#. Description of the plugin
+msgid "Create simple tests on your wordpress pages"
+msgstr ""
+
+#: includes/admin/edit-post-page.php:48 includes/admin/edit-post-page.php:91
+#: includes/admin/edit-post-page.php:116
+msgid "Delete question"
+msgstr ""
+
+#: includes/admin/edit-post-page.php:32 includes/admin/edit-post-page.php:128
+msgid "Description"
+msgstr ""
+
+#: includes/init.php:18
+msgid "Edit Test"
+msgstr ""
+
+#: includes/admin/edit-post-page.php:26 includes/admin/edit-post-page.php:124
+msgid "Header"
+msgstr ""
+
+#: includes/admin/edit-post-page.php:110
+msgid "ID"
+msgstr ""
+
+#: includes/init.php:17
+msgid "New Test"
+msgstr ""
+
+#: includes/init.php:24
+msgid "No Tests found in Trash."
+msgstr ""
+
+#: includes/init.php:23
+msgid "No Tests found."
+msgstr ""
+
+#: includes/init.php:25
+msgctxt ""
+"Overrides the “Featured Image” phrase for this post type. Added in 4.3"
+msgid "Test Cover Image"
+msgstr ""
+
+#: includes/init.php:30
+msgctxt ""
+"Overrides the “Insert into post”/”Insert into page” phrase (used when "
+"inserting media into a post). Added in 4.4"
+msgid "Insert into Test"
+msgstr ""
+
+#: includes/init.php:27
+msgctxt ""
+"Overrides the “Remove featured image” phrase for this post type. Added in 4.3"
+msgid "Remove cover image"
+msgstr ""
+
+#: includes/init.php:26
+msgctxt ""
+"Overrides the “Set featured image” phrase for this post type. Added in 4.3"
+msgid "Set cover image"
+msgstr ""
+
+#: includes/init.php:31
+msgctxt ""
+"Overrides the “Uploaded to this post”/”Uploaded to this page” phrase (used "
+"when viewing media attached to a post). Added in 4.4"
+msgid "Uploaded to this Test"
+msgstr ""
+
+#: includes/init.php:28
+msgctxt ""
+"Overrides the “Use as featured image” phrase for this post type. Added in 4.3"
+msgid "Use as cover image"
+msgstr ""
+
+#: includes/init.php:22
+msgid "Parent Tests:"
+msgstr ""
+
+#. Author of the plugin
+msgid "Patrycjusz Nowaczyk"
+msgstr ""
+
+#: includes/init.php:11
+msgctxt "Post type general name"
+msgid "Tests"
+msgstr ""
+
+#: includes/init.php:12
+msgctxt "Post type singular name"
+msgid "Test"
+msgstr ""
+
+#: includes/admin/edit-post-page.php:51
+msgid "Question"
+msgstr ""
+
+#: includes/init.php:32
+msgctxt ""
+"Screen reader text for the filter links heading on the post type listing "
+"screen. Default “Filter posts list”/”Filter pages list”. Added in 4.4"
+msgid "Filter Tests list"
+msgstr ""
+
+#: includes/init.php:34
+msgctxt ""
+"Screen reader text for the items list heading on the post type listing "
+"screen. Default “Posts list”/”Pages list”. Added in 4.4"
+msgid "Tests list"
+msgstr ""
+
+#: includes/init.php:33
+msgctxt ""
+"Screen reader text for the pagination heading on the post type listing "
+"screen. Default “Posts list navigation”/”Pages list navigation”. Added in 4.4"
+msgid "Tests list navigation"
+msgstr ""
+
+#: includes/init.php:21
+msgid "Search Tests"
+msgstr ""
+
+#. Name of the plugin
+msgid "Tequ"
+msgstr ""
+
+#: includes/init.php:29
+msgctxt ""
+"The post type archive label used in nav menus. Default “Post Archives”. "
+"Added in 4.4"
+msgid "Test archives"
+msgstr ""
+
+#: includes/admin/edit-post-page.php:70 includes/admin/edit-post-page.php:76
+msgid "Type answer here"
+msgstr ""
+
+#: includes/admin/edit-post-page.php:63
+msgid "Type question here"
+msgstr ""
+
+#: includes/admin/edit-post-page.php:115
+msgid "upload image"
+msgstr ""
+
+#: includes/init.php:19
+msgid "View Test"
+msgstr ""
+
+#: includes/activation.php:5
+msgid "You must update Wordpress version to use this plugin"
+msgstr ""
